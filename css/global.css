@@ -1,0 +1,155 @@
+body {
+    background-color: #e1b6a5;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: white;
+}
+
+#event h2 { font-weight : 900; }
+
+#event h2 mark , 
+#product ul li figure figcaption dl dt, 
+#product ul li figure figcaption dl dt dd:last-of-type,
+footer ul li h3,
+footer ul li address span strong{
+    font-weight : 700;
+}
+
+#event p, #event ul li , 
+.row, #product ul li figure figcaption dl dt dd:first-of-type{
+    font-weight: 500;
+}
+
+@media screen and (max-width:767px) {
+    header {max-width: 1300px;margin: 0 auto; padding: 1% 2%;}
+
+    header::after,
+    header nav ul::after {content: ''; display: block; visibility: collapse; clear: both;}
+
+    header h1 {max-width: 250px;width: 19.23%;float: left;  }
+    header h1 a {display: block;}
+    header h1 a img {width: 100%;}
+
+    header nav {width: 80.77%;float: left;}
+    header nav ul {float: right;text-align: right;}
+
+    header nav ul li {float: left;  }
+
+    header nav ul li a {text-decoration: none;color: white;padding: 0 25px;}
+
+    footer {
+        padding: 5%;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        margin-bottom: 5%;
+        font-size: 16px;
+    }
+
+    footer ul {
+        max-width: 1300px;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    footer ul li {width: 35%;}
+
+    footer ul li h3 {margin-bottom: 5%; font-size: 24px;}
+
+    footer ul li address span, 
+    footer ul li:last-of-type span {display: block; margin-bottom: 2%; }
+
+    footer ul li address span a {text-decoration: none; color: white;}
+
+    footer ul li address span a {font-size: 40px; font-weight: 900;}
+}
+
+@media screen and (min-width:768px) and (max-width:1279px) {
+    header {max-width: 1300px;margin: 0 auto; padding: 1% 2%;}
+
+    header::after,
+    header nav ul::after {content: ''; display: block; visibility: collapse; clear: both;}
+
+    header h1 {max-width: 250px;width: 19.23%;float: left;  }
+    header nav {width: 80.77%;float: left;}
+    header nav ul {float: right;text-align: right;}
+
+    header nav ul li {float: left;  }
+
+    header nav ul li a {text-decoration: none;color: white;padding: 0 25px;}
+
+    footer {
+        padding: 5%;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        margin-bottom: 5%;
+        font-size: 16px;
+    }
+
+    footer ul {
+        max-width: 1300px;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    footer ul li {width: 35%;}
+
+    footer ul li h3 {margin-bottom: 5%; font-size: 24px;}
+
+    footer ul li address span, 
+    footer ul li:last-of-type span {display: block; margin-bottom: 2%; }
+
+    footer ul li address span a {text-decoration: none; color: white;}
+
+    footer ul li address span a {font-size: 40px; font-weight: 900;}
+}
+
+@media screen and (min-width : 1280px) {
+    header {max-width: 1300px;margin: 0 auto; padding: 1% 2%;}
+
+    header::after,
+    header nav ul::after {content: ''; display: block; visibility: collapse; clear: both;}
+
+    header h1 {max-width: 250px;width: 19.23%;float: left;  }
+    header h1 a {display: block;}
+    header h1 a img {width: 100%;}
+
+    header nav {width: 80.77%;float: left;}
+    header nav ul {float: right;text-align: right;}
+
+    header nav ul li {float: left;  }
+
+    header nav ul li a {text-decoration: none;color: white;padding: 0 25px;}
+
+    footer {
+        padding: 5%;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        margin-bottom: 5%;
+        font-size: 16px;
+    }
+
+    footer ul {
+        max-width: 1300px;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    footer ul li {width: 35%;}
+
+    footer ul li h3 {margin-bottom: 5%; font-size: 24px;}
+
+    footer ul li address span, 
+    footer ul li:last-of-type span {display: block; margin-bottom: 2%; }
+
+    footer ul li address span a {text-decoration: none; color: white;}
+
+    footer ul li address span a {font-size: 40px; font-weight: 900;}
+}
